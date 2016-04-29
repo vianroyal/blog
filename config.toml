@@ -1,0 +1,26 @@
+baseurl = "https://vianroyal.moe/"
+title = "建安十六年春"
+
+languageCode = "zh-cn"
+hasCJKLanguage = true
+
+theme = "hyde-x"
+paginate = 5 # 一页多少篇文章
+
+[author]
+name = "vianroyal"
+
+[permalinks]
+post = "/:year/:month/:filename/"
+
+[params]
+truncate = true
+hideReadingTime = true
+
+siteTitle = "建安十六年<del>蠢</del>春"
+tagline = "谁说一定要有副标题的"
+
+avatarURL = "/media/profile.png"
+github = "https://github.com/vianroyal"
+twitter = "https://twitter.com/vivianliaoyl"
+rss = true
