@@ -14,7 +14,7 @@ name = "vianroyal"
 post = "/:year/:month/:filename/"
 
 [params]
-truncate = true
+truncate = false
 hideReadingTime = true
 
 siteTitle = "建安十六年<del>蠢</del>春"
