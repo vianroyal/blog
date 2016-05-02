@@ -1,0 +1,17 @@
+image: samueldebruyn/hugo-build
+
+pages:
+  cache:
+    paths:
+      - themes/
+
+  script:
+    - git submodule update --init --recursive
+    - hugo
+
+  artifacts:
+    paths:
+      - public
+
+  only:
+    - master
